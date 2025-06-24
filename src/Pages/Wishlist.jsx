@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from '../../Components/Navbar';
-import Footer from '../../Components/Footer';
+// import Navbar from '../../Components/Navbar';
+// import Footer from '../../Components/Footer';
 import { Button } from '@mui/material';
 import { toast, ToastContainer, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 function Wishlist() {
   const [wishlistItems, setWishlistItems] = useState([]);
