@@ -9,7 +9,7 @@ import Checkout from './Pages/Checkout/Checkout'
 import History from './Pages/OrderHistory/History'
 import Account from './Pages/Account/Account'
 import { AuthProvider } from './context/AuthContext'
-import Wishlist from './Pages/Wishlist/Wishlist'
+import Wishlist from './Pages/Wishlist'
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
         <Route path='/login' element={<Authorization register={false} />} />
         <Route path='/register' element={<Authorization register={true} />} />
         <Route path='/home' element={<Home/>} />
-        <Route path='/wishlist' element={<Wishlist />} />
+        {/* <Route path='/wishlist' element={<Wishlist />} /> */}
+        <Route path='/wishlist' element={<Wishlist/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/view' element={<View/>} />
         <Route path='/checkout' element={<Checkout/>} />
