@@ -3,13 +3,13 @@ import './App.css'
 import LandingPage from './Pages/LandingPage/LandingPage'
 import Home from './Pages/Home/Home'
 import Authorization from './Pages/Authorization/Authorization'
-import Wishlist from './Pages/WishList/Wishlist'
 import Cart from './Pages/Cart/Cart'
 import View from './Pages/ViewProducts/View'
 import Checkout from './Pages/Checkout/Checkout'
 import History from './Pages/OrderHistory/History'
 import Account from './Pages/Account/Account'
 import { AuthProvider } from './context/AuthContext'
+import Wishlist from './Pages/WishList/wishlist'
 
 function App() {
   return (
