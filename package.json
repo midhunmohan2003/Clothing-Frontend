@@ -15,9 +15,14 @@
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
     "@tailwindcss/vite": "^4.1.4",
+    "fabric": "^6.6.4",
+    "framer-motion": "^12.10.5",
+    "html2canvas": "^1.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-draggable": "^4.4.6",
     "react-router-dom": "^7.5.3",
+    "react-toastify": "^11.0.5",
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {

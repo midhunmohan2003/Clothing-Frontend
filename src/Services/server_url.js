@@ -1,0 +1,1 @@
+export const server_url = "https://clothing-backend-n1u3.onrender.com"
